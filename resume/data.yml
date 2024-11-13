@@ -1,98 +1,99 @@
 /* #*/ export const PERSON = `
-# Any fields left unchanged, please delete so your resume is fully yours!
-
 name:
-  first: John
+  first: Nando
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Peña
+about: '<b>Front-end expert</b> possessing an obsession for quality,<br />
+  a passion for learning,<br />
+  a penchant for collaboration,<br />
+  and a commitment to success.'
+position: Front-End Engineer
 
 birth:
-  year: 1990
-  location: New York
-
-# you may add more experiences by duplicating the template
+  year: 1981
+  location: Texas
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Mailgun/Sinch
+  position: Software Developer IV
+  timeperiod: Aug 2019 🡒 Present
+  description:
+    - Lead rebuild of entire front-end architecture from the ground up
+    - Defined new coding standards and processes
+    - Instructed peers in over 25 frontend tech talks
+    - Collaborated with product team on new features
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Rackspace
+  position: Software Developer III
+  timeperiod: Mar 2012 🡒 Aug 2019
+  description:
+    - Lead team developing new customer ticketing UI and billing UI
+    - Contributed to multiple teams and internal support applications
+    - Mentored peers and gave company wide tech talks
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: San Antonio ISD
+  position: Exec. DB Admin
+  timeperiod: Apr 2010 🡒 Mar 2012
+  description:
+    - Database operations including ETL, reporting, and security
+
+- company: UTSA
+  position: Info Tech Associate II
+  timeperiod: Mar 2008 🡒 Apr 2010
+  description:
+    - Administered university''s donor relations software and database
+
+- company: IBC Bank
+  position: Programmer I
+  timeperiod: Jun 2006 🡒 Feb 2008
+  description:
+    - Developed, maintained, and supported banking and sales software
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: BSIT Software Systems Engineering Concentration
+  timeperiod: 2006 - 2009
+  description: Colorado Technical University
+  website: https://coloradotech.smartcatalogiq.com/en/2023/catalog/degree-programs/bachelors/bachelor-of-science-in-information-technology-software-systems-engineering-concentration-virtual/
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
-
-# skill level goes from 0 to 100
+# skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- Front End Engineering
+- Public Speaking
+- Mentoring
+- Testing
+- API Design
+- Agile
+- Documentation
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+technologies:
+- JavaScript
+- TypeScript
+- React
+- Python
+- Go
+- C#
+- Java
+- MSSQL
+- MongoDB
 
-# optional, not all resume templates have hobbies included
 hobbies:
+- name: Board Game Design
+  iconClass: fa fa-chess-knight
+
+- name: Guitar
+  iconClass: fa fa-guitar
+
 - name: Video Games
   iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+  email: email@nandopena.dev
+  phone: 210.338.0805
+  street: 317 Fenwick Drive
+  city: San Antonio, TX
+  github: TheNando
+  linkedin: nando-pena
+
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `
